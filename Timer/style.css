@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url(//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons);
+@font-face {font-family: "clockicons"; src: url("//db.onlinewebfonts.com/t/84cb021d5f9af287ffff84b61beef6dc.eot");}
+
+.promotion_timer{
+    height: 100vh;
+    background-color:black;
+}
+
+.timer{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.title{
+    color:#FF9500; 
+    font-family: 'Montserrat';  
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.timer_block{
+
+    margin-right: 15px;
+}
+
+.timer_block span{
+    font-family: "clockicons";
+    color:#FF9500;
+    font-size: 80px;
+    margin: 0;
+}
